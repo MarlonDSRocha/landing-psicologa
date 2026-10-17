@@ -1,0 +1,11 @@
+# Arquivos automáticos do Windows
+Thumbs.db
+desktop.ini
+
+# Configurações do editor (VS Code)
+.vscode/
+
+# Segredos e dados pessoais
+.env
+*.key
+*.pem
