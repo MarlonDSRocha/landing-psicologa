@@ -78,7 +78,7 @@ h2 {
   gap: var(--espaco-2);
 }
 
-.cards article {
+.card {
   display: flex;
   flex-direction: column;
   gap: var(--espaco-1);
