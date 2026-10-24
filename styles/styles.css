@@ -273,3 +273,17 @@ footer p:first-child {
   font-size: 14px;
   color: #e6e6e6;
 }
+
+@media (min-width: 768px) {
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1 1 calc(50% - var(--espaco-1));
+  }
+  ol.cards .card {
+    flex-basis: calc((100% - 2 * var(--espaco-2)) / 3);
+  }
+}
