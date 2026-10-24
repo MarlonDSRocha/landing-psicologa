@@ -167,3 +167,62 @@ h3 {
 .faq p {
   padding-top: var(--espaco-1);
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.campo label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input[type="text"],
+select,
+textarea {
+  min-height: 48px;
+  max-width: 100%;
+  padding: var(--espaco-2);
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.aviso {
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+.consentimento {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espaco-1);
+  font-size: 14px;
+}
+
+.consentimento input {
+  height: 20px;
+  width: 20px;
+  flex: none;
+  margin: 0;
+}
+
+form .botao{
+  font-height: 600;
+  cursor: pointer;
+  font:inherit
+}

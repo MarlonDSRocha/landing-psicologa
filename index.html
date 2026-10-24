@@ -123,29 +123,98 @@
       </section>
 
       <section id="faq">
-      <h2>Perguntas frequentes</h2>
-  <div class="faq">
-    <details>
-      <summary>Preciso de encaminhamento médico para começar?</summary>
-      <p>Não. Você pode agendar uma consulta diretamente, sem a necessidade de um encaminhamento prévio de um médico ou psiquiatra.</p>
-    </details>
-    <details>
-      <summary>Como funciona o sigilo das sessões?</summary>
-      <p>Tudo o que é conversado em sessão é estritamente confidencial, protegido pelo Código de Ética Profissional do Psicólogo e pela LGPD.</p>
-    </details>
-    <details>
-      <summary>O atendimento online é tão eficiente quanto o presencial?</summary>
-      <p>Sim. O atendimento online é tão eficiente quanto o presencial, utilizando plataformas seguras para garantir a sua privacidade e o conforto do seu espaço.</p>
-    </details>
-    <details>
-      <summary>Como é feita a forma de pagamento e reembolso?</summary>
-      <p>O pagamento pode ser feito via PIX ou cartão. Para planos de saúde, emitimos recibo para você solicitar o reembolso junto ao seu convênio.</p>
-    </details>
-  </div>
+        <h2>Perguntas frequentes</h2>
+        <div class="faq">
+          <details>
+            <summary>Preciso de encaminhamento médico para começar?</summary>
+            <p>
+              Não. Você pode agendar uma consulta diretamente, sem a necessidade
+              de um encaminhamento prévio de um médico ou psiquiatra.
+            </p>
+          </details>
+          <details>
+            <summary>Como funciona o sigilo das sessões?</summary>
+            <p>
+              Tudo o que é conversado em sessão é estritamente confidencial,
+              protegido pelo Código de Ética Profissional do Psicólogo e pela
+              LGPD.
+            </p>
+          </details>
+          <details>
+            <summary>
+              O atendimento online é tão eficiente quanto o presencial?
+            </summary>
+            <p>
+              Sim. O atendimento online é tão eficiente quanto o presencial,
+              utilizando plataformas seguras para garantir a sua privacidade e o
+              conforto do seu espaço.
+            </p>
+          </details>
+          <details>
+            <summary>Como é feita a forma de pagamento e reembolso?</summary>
+            <p>
+              O pagamento pode ser feito via PIX ou cartão. Para planos de
+              saúde, emitimos recibo para você solicitar o reembolso junto ao
+              seu convênio.
+            </p>
+          </details>
+        </div>
       </section>
 
       <section id="contato">
         <h2>Agende uma conversa</h2>
+        <form action="#" method="post">
+          <div class="campo">
+            <label for="nome">Seu nome</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              autocomplete="name"
+              maxlength="80"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="meio-contato">WhatsApp ou e-mail</label>
+            <input
+              type="text"
+              id="meio-contato"
+              name="meio-contato"
+              maxlength="100"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="horario">Melhor horário para contato</label>
+            <select id="horario" name="horario" required>
+              <option value="">Escolha um horário</option>
+              <option value="manha">Manhã</option>
+              <option value="tarde">Tarde</option>
+              <option value="noite">Noite</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem (opcional)</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              maxlength="500"
+            ></textarea>
+            <p class="aviso">Não é necessário contar detalhes pessoais aqui.</p>
+          </div>
+          <label class="consentimento">
+            <input type="checkbox" name="consentimento" required />
+            Concordo em ser contatado(a) para agendar uma conversa. Meus dados
+            serão usados só para isso.
+          </label>
+
+          <button type="submit">Enviar</button>
+        </form>
       </section>
     </main>
 
