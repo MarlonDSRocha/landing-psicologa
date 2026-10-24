@@ -7,6 +7,8 @@
   --espaco-2: 16px;
   --espaco-3: 24px;
   --espaco-4: 32px;
+
+  --margem-lateral: max(var(--espaco-3), calc((100% - 960px) / 2));
 }
 
 * {
@@ -22,7 +24,7 @@ body {
 
 header {
   background: var(--cor-fundo-1);
-  padding: var(--espaco-4) var(--espaco-3);
+  padding: var(--espaco-4) var(--margem-lateral);
   display: flex;
   flex-direction: column;
   gap: var(--espaco-2);
@@ -52,7 +54,7 @@ header h1 {
 }
 
 section {
-  padding: var(--espaco-4) var(--espaco-3);
+  padding: var(--espaco-4) var(--margem-lateral);
   display: flex;
   flex-direction: column;
   gap: var(--espaco-3);
@@ -112,21 +114,21 @@ h3 {
 }
 
 .galeria {
-    display: flex;
-    gap: var(--espaco-2);
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    margin-inline: calc((var--espaco-3) * -1);
-    padding-inline: var(--espaco-3);
-    scroll-padding-inline: var(--espaco-3);
+  display: flex;
+  gap: var(--espaco-2);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  margin-inline: calc((var--espaco-3) * -1);
+  padding-inline: var(--espaco-3);
+  scroll-padding-inline: var(--espaco-3);
 }
 
 .galeria img {
-   flex: 0 0 280px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
-    scroll-snap-align: start;
+  flex: 0 0 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  scroll-snap-align: start;
 }
 
 .faq {
@@ -221,9 +223,9 @@ textarea {
   margin: 0;
 }
 
-form .botao{
+form .botao {
   cursor: pointer;
-  font:inherit;
+  font: inherit;
   font-weight: 600;
 }
 
@@ -255,12 +257,11 @@ address {
 footer {
   background: #4d4d4d;
   color: #ffffff;
-  padding: var(--espaco-4) var(--espaco-3);
+  padding: var(--espaco-4) var(--margem-lateral);
   display: flex;
   flex-direction: column;
   gap: var(--espaco-1);
   font-size: 14px;
-
 }
 
 footer p:first-child {
@@ -269,6 +270,6 @@ footer p:first-child {
 }
 
 .rodape-aviso {
-  font-size: 12px;
+  font-size: 14px;
   color: #e6e6e6;
 }
