@@ -116,6 +116,9 @@ h3 {
     gap: var(--espaco-2);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    margin-inline: calc((var--espaco-3) * -1);
+    padding-inline: var(--espaco-3);
+    scroll-padding-inline: var(--espaco-3);
 }
 
 .galeria img {
