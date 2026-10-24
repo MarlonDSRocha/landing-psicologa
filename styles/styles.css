@@ -128,3 +128,42 @@ h3 {
     border-radius: 12px;
     scroll-snap-align: start;
 }
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.faq details {
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 12px;
+  padding: var(--espaco-2);
+}
+
+.faq summary {
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faqq summary::after {
+  content: "+";
+  font-weight: 600;
+}
+
+.faq[open] summary::after {
+  content: "-";
+  font-weight: 600;
+}
+
+.faq p {
+  padding-top: var(--espaco-1);
+}
