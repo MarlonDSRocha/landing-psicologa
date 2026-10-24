@@ -222,7 +222,32 @@ textarea {
 }
 
 form .botao{
-  font-height: 600;
+  font-weight: 600;
   cursor: pointer;
   font:inherit
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+.info-bloco {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.mapa {
+  height: 140px;
+  background: #bdbdbd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+address {
+  font-style: normal;
 }
