@@ -251,3 +251,24 @@ form .botao{
 address {
   font-style: normal;
 }
+
+footer {
+  background: #4d4d4d;
+  color: #ffffff;
+  padding: var(--espaco-4) var(--espaco-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+  font-size: 14px;
+
+}
+
+footer p:first-child {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.rodape-aviso {
+  font-size: 12px;
+  color: #e6e6e6;
+}
