@@ -154,13 +154,13 @@ h3 {
   display: none;
 }
 
-.faqq summary::after {
+.faq summary::after {
   content: "+";
   font-weight: 600;
 }
 
-.faq[open] summary::after {
-  content: "-";
+.faq details[open] summary::after {
+  content: "−";
   font-weight: 600;
 }
 
