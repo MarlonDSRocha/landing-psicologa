@@ -1,11 +1,15 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta
+      name="Projeto landing page faculdade"
+      content="Projeto acadêmico de landing page para curso de Web Standards do Senac EAD."
+    />
     <title>Psicóloga Fictícia | Projeto Acadêmico</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <header id="inicio">
@@ -52,9 +56,10 @@
       <section id="sobre">
         <h2>Sobre a profissional</h2>
         <img
+          loading="lazy"
           src="img/sobre.jpg"
           alt="Sala de atendimento com sofá, mesa de centro e plantas"
->
+        />
 
         <div class="nome-formacao">
           <h3>Dra. Camila Valente</h3>
@@ -108,17 +113,20 @@
         <h2>O consultório</h2>
         <div class="galeria">
           <img
+            loading="lazy"
             src="img/consultorio-1.jpg"
             alt="Sala de espera com vista para jardim"
->
+          />
           <img
+            loading="lazy"
             src="img/consultorio-2.jpg"
             alt="Poltrona com livros e plantas"
->
+          />
           <img
+            loading="lazy"
             src="img/consultorio-3.jpg"
             alt="Sala de espera com plantas e cadeiras"
->
+          />
         </div>
       </section>
 
@@ -164,82 +172,84 @@
       <section id="contato">
         <h2>Agende uma conversa</h2>
         <div class="contato-conteudo">
-        <form action="#" method="post">
-          <div class="campo">
-            <label for="nome">Seu nome</label>
-            <input
-              type="text"
-              id="nome"
-              name="nome"
-              autocomplete="name"
-              maxlength="80"
-              required
->
-          </div>
+          <form action="#" method="post">
+            <div class="campo">
+              <label for="nome">Seu nome</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                autocomplete="name"
+                maxlength="80"
+                required
+              />
+            </div>
 
-          <div class="campo">
-            <label for="meio-contato">WhatsApp ou e-mail</label>
-            <input
-              type="text"
-              id="meio-contato"
-              name="meio-contato"
-              maxlength="100"
-              required
->
-          </div>
+            <div class="campo">
+              <label for="meio-contato">WhatsApp ou e-mail</label>
+              <input
+                type="text"
+                id="meio-contato"
+                name="meio-contato"
+                maxlength="100"
+                required
+              />
+            </div>
 
-          <div class="campo">
-            <label for="horario">Melhor horário para contato</label>
-            <select id="horario" name="horario" required>
-              <option value="">Escolha um horário</option>
-              <option value="manha">Manhã</option>
-              <option value="tarde">Tarde</option>
-              <option value="noite">Noite</option>
-            </select>
-          </div>
+            <div class="campo">
+              <label for="horario">Melhor horário para contato</label>
+              <select id="horario" name="horario" required>
+                <option value="">Escolha um horário</option>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+              </select>
+            </div>
 
-          <div class="campo">
-            <label for="mensagem">Mensagem (opcional)</label>
-            <textarea
-              id="mensagem"
-              name="mensagem"
-              rows="4"
-              maxlength="500"
-            ></textarea>
-            <p class="aviso">Não é necessário contar detalhes pessoais aqui.</p>
-          </div>
-          <label class="consentimento">
-            <input type="checkbox" name="consentimento" required>
-            Concordo em ser contatado(a) para agendar uma conversa. Meus dados
-            serão usados só para isso.
-          </label>
+            <div class="campo">
+              <label for="mensagem">Mensagem (opcional)</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="4"
+                maxlength="500"
+              ></textarea>
+              <p class="aviso">
+                Não é necessário contar detalhes pessoais aqui.
+              </p>
+            </div>
+            <label class="consentimento">
+              <input type="checkbox" name="consentimento" required />
+              Concordo em ser contatado(a) para agendar uma conversa. Meus dados
+              serão usados só para isso.
+            </label>
 
-          <button class="botao" type="submit">Enviar</button>
-        </form>
+            <button class="botao" type="submit">Enviar</button>
+          </form>
 
-        <div class="info">
-          <div class="info-bloco">
-            <h3>Horário de atendimento</h3>
-            <p>Segunda a sexta, das 9h às 18h</p>
-            <p>Online e presencial</p>
+          <div class="info">
+            <div class="info-bloco">
+              <h3>Horário de atendimento</h3>
+              <p>Segunda a sexta, das 9h às 18h</p>
+              <p>Online e presencial</p>
+            </div>
+            <div class="info-bloco">
+              <h3>Onde estou</h3>
+              <address>Rua Exemplo, 123 - Bairro Exemplo</address>
+              <div class="mapa">Mapa</div>
+            </div>
           </div>
-          <div class="info-bloco">
-            <h3>Onde estou</h3>
-            <address>Rua Exemplo, 123 - Bairro Exemplo</address>
-            <div class="mapa">Mapa</div>
-          </div>
-        </div>
         </div>
       </section>
     </main>
-      <footer>
-        <p>Dra. Camila Valente · Psicóloga clínica</p>
-        <p>CRP 00-000000</p>
-        <p>
-          Projeto Fictício para fins acadêmicos (Senac EAD). Nenhum
-          profissional, registro ou serviço aqui é real.
-        </p>
-        <p>© 2026</p>
-      </footer>
+    <footer>
+      <p>Dra. Camila Valente · Psicóloga clínica</p>
+      <p>CRP 00-000000</p>
+      <p>
+        Projeto Fictício para fins acadêmicos (Senac EAD). Nenhum profissional,
+        registro ou serviço aqui é real.
+      </p>
+      <p>© 2026</p>
+    </footer>
   </body>
 </html>

@@ -100,6 +100,8 @@ h3 {
 }
 
 #sobre img {
+  width: 1000px;
+  height: 750px;
   width: 100%;
   border-radius: 12px;
   height: auto;
@@ -124,8 +126,9 @@ h3 {
 }
 
 .galeria img {
+  width: 1000px;
+   height: 750px;
   flex: 0 0 280px;
-  height: 200px;
   object-fit: cover;
   border-radius: 12px;
   scroll-snap-align: start;
