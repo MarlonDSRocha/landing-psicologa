@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <meta
-      name="Projeto landing page faculdade"
-      content="Projeto acadêmico de landing page para curso de Web Standards do Senac EAD."
-    />
+    <meta name="description" content="Projeto acadêmico de landing page para curso de Web Standards do Senac EAD." />
     <title>Psicóloga Fictícia | Projeto Acadêmico</title>
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
@@ -56,6 +53,7 @@
       <section id="sobre">
         <h2>Sobre a profissional</h2>
         <img
+          width="1000" height="750"
           loading="lazy"
           src="img/sobre.jpg"
           alt="Sala de atendimento com sofá, mesa de centro e plantas"
@@ -102,9 +100,9 @@
           </li>
         </ol>
         <p>
-          As sessões tem duração de 50 minutos e ocorrem de forma online ou
+          As sessões têm duração de 50 minutos e ocorrem de forma online ou
           presencial. Todo o processo é pautado pelo código de ética da
-          psicologia, garantindo absoluto sigilo e confidenciabilidade sobre
+          psicologia, garantindo absoluto sigilo e confidencialidade sobre
           tudo o que for compartilhado.
         </p>
       </section>
@@ -113,16 +111,19 @@
         <h2>O consultório</h2>
         <div class="galeria">
           <img
+          width="1000" height="750"
             loading="lazy"
             src="img/consultorio-1.jpg"
             alt="Sala de espera com vista para jardim"
           />
           <img
+          width="1000" height="750"
             loading="lazy"
             src="img/consultorio-2.jpg"
             alt="Poltrona com livros e plantas"
           />
-          <img
+          <img 
+          width="1000" height="750"
             loading="lazy"
             src="img/consultorio-3.jpg"
             alt="Sala de espera com plantas e cadeiras"
@@ -172,7 +173,14 @@
       <section id="contato">
         <h2>Agende uma conversa</h2>
         <div class="contato-conteudo">
-          <form action="#" method="post">
+          <form 
+            name="contato"  
+          action="#" method="post" data-netlify="true" netlify-honeypot="bot-field"    
+          >
+          <p class="oculto">
+            label>Não preencher este campo</label>
+            <input name="bot-field" />
+          </p>
             <div class="campo">
               <label for="nome">Seu nome</label>
               <input
@@ -235,8 +243,15 @@
             </div>
             <div class="info-bloco">
               <h3>Onde estou</h3>
-              <address>Rua Exemplo, 123 - Bairro Exemplo</address>
-              <div class="mapa">Mapa</div>
+              <address>Rua Exemplo, 123 - Endereço ilustrativo com mapa</address>
+              <div class="mapa">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196827.81592922076!2d-46.722051842911604!3d-23.55663404817616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5036539648d5%3A0x78501a72680ea23a!2sCentro%20Universit%C3%A1rio%20Senac%20-%20Santo%20Amaro!5e0!3m2!1spt-BR!2sbr!4v1793129198919!5m2!1spt-BR!2sbr"
+                  title="Mapa com a localização do SENAC Santo Amaro, em São Paulo, SP"
+                  loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>

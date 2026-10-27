@@ -100,8 +100,7 @@ h3 {
 }
 
 #sobre img {
-  width: 1000px;
-  height: 750px;
+  height: 200px;
   width: 100%;
   border-radius: 12px;
   height: auto;
@@ -120,14 +119,13 @@ h3 {
   gap: var(--espaco-2);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  margin-inline: calc((var--espaco-3) * -1);
+  margin-inline: calc(var(--espaco-3) * -1);
   padding-inline: var(--espaco-3);
   scroll-padding-inline: var(--espaco-3);
 }
 
 .galeria img {
-  width: 1000px;
-   height: 750px;
+  height: 200px;
   flex: 0 0 280px;
   object-fit: cover;
   border-radius: 12px;
@@ -296,11 +294,8 @@ footer p:first-child {
   ol.cards .card {
     flex-basis: calc((100% - 2 * var(--espaco-2)) / 3);
   }
- 
 
-  .mapa {
-    height: 200px;
-  }
+ 
 
   .contato-conteudo {
     flex-direction: row;
@@ -316,3 +311,18 @@ footer p:first-child {
     flex-direction: column;
   }
 }
+
+.oculto {
+  display: none;
+}
+
+ .mapa {
+    overflow: hidden;
+    height: 200px;
+  }
+
+  .mapa iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
