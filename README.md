@@ -18,6 +18,8 @@ Projeto da disciplina de **Web Standards** (Senac EAD): landing page responsiva 
 - Mobile-first, HTML semântico e acessibilidade
 - Formulário com rótulos, consentimento e aviso para não enviar dados sensíveis
 
+Lighthouse (celular): Desempenho 100, Acessibilidade 100, Boas práticas 100, SEO 63 (reduzido pelo noindex proposital).”
+
 ## Créditos das imagens
 Imagens do [Pexels](https://www.pexels.com/pt-br/). (Liste o autor e o link de cada foto.)
 
