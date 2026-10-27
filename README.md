@@ -22,5 +22,5 @@ Projeto da disciplina de **Web Standards** (Senac EAD): landing page responsiva 
 Imagens do [Pexels](https://www.pexels.com/pt-br/). (Liste o autor e o link de cada foto.)
 
 ## Site publicado
-- Netlify: (link)
-- Repositório: (link)
+- Netlify: https://landing-psicologa.netlify.app/
+- Repositório: https://github.com/MarlonDSRocha/landing-psicologa
