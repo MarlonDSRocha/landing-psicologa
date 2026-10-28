@@ -1,0 +1,32 @@
+[33m4d7a4cc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Adiciona faixa de vantagens e benefícios
+[33m196013b[m Adiciona resultado do Lighthouse ao README
+[33ma5c2af3[m Adiciona links do site publicado ao README
+[33m98b1456[m Corrige campo-isca e remove action do formulário
+[33m76356e1[m Corrige detalhes de CSS e prepara o formulário para o Netlify
+[33m6389965[m Otimiza imagens e adiciona meta description
+[33mcb32dfc[m Corrige footer duplicado apontado pelo validador
+[33m2eaff28[m Reorganiza a seção de contato em duas colunas no computador
+[33mc8b8462[m Ajusta formulário, horários e mapa para telas largas
+[33medda22d[m Adiciona media query: cards em colunas no computador
+[33mb8dfd37[m Centraliza o conteúdo em telas largas
+[33mbb49e26[m Conclui o footer e versão mobile da página
+[33m44e0a21[m Ajuste no css da faixa 7
+[33m86b474d[m Adiciona mapa e o css da faixa 7
+[33mc8551ac[m Adiciona formulário de contato da faixa 7
+[33m501d7f0[m Adiciona ícone de abrir e fechar nas perguntas frequentes
+[33m9a63500[m Adiciona faixa 6 (perguntas frequentes)
+[33m9ae382d[m Adiciona faixa 5 (galeria do consultório) com rolagem até a borda
+[33m5fa6fbf[m Adiciona faixa 5 (galeria do consultório)
+[33m9e25d0b[m Adiciona faixa 4 (como funciona o atendimento)
+[33m3fb0f26[m Adiciona faixa 4 (como funciona o atendimento)
+[33mc287ce0[m Refatora estilo de card para classe reutilizável
+[33m7b06f06[m Conclui faixa 3 (Sobre a profissional)
+[33me2c0e1f[m Adiciona estilo das seções e cards da faixa 2
+[33m06fce50[m adiciona estilo nas seções e cards da faixa 2
+[33mb14559e[m Adiciona CSS base, estilo do botão e ajustes do header
+[33md6845bc[m Corrige h2
+[33md4769a7[m Estrutura das 8 partes/faixas adicionada
+[33mb3b95a5[m Estrutura base HTML adicionada
+[33mc72d92b[m Renomeia protótipo para prototipo-mobile.png
+[33m6619bf4[m Prototipo mobile adicionado a pasta docs
+[33mc1b390b[m estrutura inicial + .gitignore
